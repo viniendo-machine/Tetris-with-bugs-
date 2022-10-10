@@ -1,0 +1,48 @@
+
+.container{
+    display: flex ; 
+}
+
+.grid{
+    /*If we want to have a grid of 200 squares, 10 x 20 squares*/
+    /* Each sqaure is 20 pixels by 20 pixels*/
+    margin-top: 10px;
+    width: 200px ; 
+    height: 400px ; 
+    background-color: yellow ; 
+    display: flex ; 
+    flex-wrap: wrap ;
+}
+
+.grid div {
+    /*This styles div elements that are INSIDE a div element of class 'grid' */
+    height: 20px ; 
+    width: 20px ; 
+    outline: 1px solid white ; 
+    /* background-color: red ;  */
+}
+
+.tetromino{
+    background-color: blue ; 
+    outline: 1px solid white ; 
+}
+
+/* .taken{
+    background-color: yellow ; -> Taken squares not visible -> white atm
+} */
+
+.mini-grid{
+    margin-top: 10px ; 
+    margin-left: 50px ; 
+    width: 80px ; 
+    height: 80px ; 
+    display: flex ; 
+    flex-wrap: wrap ; 
+    background-color: orange;
+}
+
+.mini-grid div{
+    height: 20px ; 
+    width: 20px ; 
+    outline: 1px solid white ; 
+}
